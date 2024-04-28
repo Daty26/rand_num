@@ -1,0 +1,55 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #4c3434;
+  color: #eee;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  background-image: url("assets/6066a36d593d3ecd83e3efe1_2-layers.jpg");
+}
+.header{
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.reset{
+  padding: 8px;
+  background-color: white;
+  color: black;
+  border-radius: 7px;
+}
+.title{
+  display: flex;
+  justify-content: center;
+}
+#names{
+  margin: 30px 0px;
+  width: initial;
+}
+.cardCont{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card{
+  width: calc(50% - 20px);
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+
+}
+.copyCont{
+  display: flex;
+  justify-content: center;
+}
+.copy{
+  background-color: white;
+  border-radius: 8px;
+  padding: 8px;
+}
+#copyTxt{
+  display: none;
+}
